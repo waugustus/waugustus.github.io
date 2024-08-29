@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+    <div class="container">
+      <header>
+        <div class="name-wrapper">
+          <div id="fullname" class="title">
+            {{ site.data.resume.name }}
+          </div>
+          <div id="jobtitle" class="sub-title">
+            {{ site.data.resume.jobtitle }}
+          </div>
+          <div id="company" class="sub-title">
+            {{ site.data.resume.company }}
+          </div>
+        </div>
+        <div id="contact" class="contact">
+          <br>
+          {% for item in site.data.resume.contact %}
+          <div class="contact-item">
+            {% if item.link %}
+            <a href="{{ item.link }}">
+            {% endif %}
+            <i class="fa {{ item.icon }} aria-hidden=true"></i> {{ item.text }}
+            {% if item.link %}
+            </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </header>
+      
+      <section id="about">
+        <div class="section-title">
+          About
+        </div>
+        <div class="section-content">
+            {{ site.data.resume.about }}
+        </div>
+      </section>
+
+      <section id="publications">
+        <div class="section-title">
+          Publications
+        </div>
+        <div class="section-content">
+          {% for pub in site.data.resume.publications %}
+          <div class="block">
+            <div class="block-title">
+              {{ pub.title }} {% if pub.pdf %}[<a class="href" href="{{ pub.pdf }}">PDF</a>]{% endif %} {% if pub.code %}[<a class="href" href="{{ pub.code }}">CODE</a>]{% endif %}
+            </div>
+            <div class="block-content">
+              {{ pub.authors }}
+            </div>
+            <div class="block-content">
+              {{ pub.booktitle }}
+            </div>
+            {% if pub.award %}
+            <div class="block-content">
+              {{ pub.award }}
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="section-title">
+          Services
+        </div>
+        <div class="section-content">
+          {% for ser in site.data.resume.services %}
+          <div class="block">
+            <div class="block-title">
+              {{ ser.booktitle }}
+            </div>
+            <div class="block-content">
+              {{ ser.job }}
+            </div>
+            {% if ser.award %}
+            <div class="award">
+              <i class="fa fa-thumbs-up"></i> {{ ser.award }}
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
