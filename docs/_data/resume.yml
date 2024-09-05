@@ -19,7 +19,7 @@ publications:
   - title: "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model"
     authors: <u>Dawei Wang</u>, Geng Zhou, Li Chen, Dan Li, Yukai Miao
     booktitle: Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (<b>CCS'24</b>)
-    pdf: assets/files/ProphetFuzz.pdf
+    pdf: https://arxiv.org/abs/2409.00922
     code: https://github.com/NASP-THU/ProphetFuzz
   - title: "CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing"
     authors: <u>Dawei Wang</u>, Ying Li, Zhiyu Zhang, Kai Chen
