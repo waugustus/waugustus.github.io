@@ -16,6 +16,11 @@ contact:
     link: https://github.com/waugustus
 about: "Dawei Wang is an Assistant Researcher at the Beijing Zhongguancun Laboratory. He earned his Bachelor's degree from <a class=\"href\" href=\"https://english.hust.edu.cn\">Huazhong University of Science and Technology</a> in 2017 and completed his Ph.D. at the <a class=\"href\" href=\"https://english.ucas.ac.cn\">University of the Chinese Academy of Sciences</a> in 2023, under the supervision of Professor <a class=\"href\" href=\"kaichen.org\">Kai Chen</a>. His research interests primarily focus on software security and natural language processing."
 publications:
+  - title: "The Digital Cybersecurity Expert: How Far Have We Come?"
+    authors: <u>Dawei Wang</u>, Geng Zhou, Xianglong Li, Yu Bai, Li Chen, Ting Qin, Jian Sun, Dan Li
+    booktitle: 2025 IEEE Symposium on Security and Privacy (<b>S&P'25</b>)
+    # pdf: https://dl.acm.org/doi/10.1145/3658644.3690231
+    # code: https://github.com/NASP-THU/ProphetFuzz
   - title: "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model"
     authors: <u>Dawei Wang</u>, Geng Zhou, Li Chen, Dan Li, Yukai Miao
     booktitle: Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (<b>CCS'24</b>)
