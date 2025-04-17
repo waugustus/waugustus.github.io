@@ -19,8 +19,8 @@ publications:
   - title: "The Digital Cybersecurity Expert: How Far Have We Come?"
     authors: <u>Dawei Wang</u>, Geng Zhou, Xianglong Li, Yu Bai, Li Chen, Ting Qin, Jian Sun, Dan Li
     booktitle: 2025 IEEE Symposium on Security and Privacy (<b>S&P'25</b>)
-    # pdf: https://dl.acm.org/doi/10.1145/3658644.3690231
-    # code: https://github.com/NASP-THU/ProphetFuzz
+    pdf: https://arxiv.org/abs/2504.11783
+    code: https://github.com/NASP-THU/CSEBenchmark
   - title: "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model"
     authors: <u>Dawei Wang</u>, Geng Zhou, Li Chen, Dan Li, Yukai Miao
     booktitle: Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (<b>CCS'24</b>)
