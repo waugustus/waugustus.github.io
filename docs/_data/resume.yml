@@ -16,6 +16,14 @@ contact:
     link: https://github.com/waugustus
 about: "Dawei Wang is an Assistant Researcher at the Beijing Zhongguancun Laboratory. He earned his Bachelor's degree from <a class=\"href\" href=\"https://english.hust.edu.cn\">Huazhong University of Science and Technology</a> in 2017 and completed his Ph.D. at the <a class=\"href\" href=\"https://english.ucas.ac.cn\">University of the Chinese Academy of Sciences</a> in 2023, under the supervision of Professor <a class=\"href\" href=\"kaichen.org\">Kai Chen</a>. His research interests primarily focus on software security and natural language processing."
 publications:
+  - title: "Hieronym: Leveraging Hierarchical Multi-Source Information for Function Renaming in Stripped Binary"
+    authors: Xiaoling Zhang, Jian Sun, <u>Dawei Wang</u><sup>*</sup>, Chongyu Wang, Li Chen<sup>*</sup>, Zhaoteng Yan, Peipei Liu, Lixiao Zhang, Dan Li
+    booktitle: Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security (<b>CCS'26</b>)
+  - title: "The CodeInverter Suite: Structure- and Data-Aware Binary Decompilation with Efficient LLMs"
+    authors: Peipei Liu, Jian Sun, Rongkang Sun, Li Chen, Zhaoteng Yan, Xiaoling Zhang, <u>Dawei Wang</u>, Dapeng Sun, Peizheng Zhang, Dan Li
+    booktitle: Proceedings of the 41st IEEE/ACM International Conference Automated Software Engineering (<b>ASE'26</b>)
+    pdf: https://arxiv.org/abs/2503.07215
+    code: https://github.com/LiuPeiP-CS/CodeInverter
   - title: "The Digital Cybersecurity Expert: How Far Have We Come?"
     authors: <u>Dawei Wang</u>, Geng Zhou, Xianglong Li, Yu Bai, Li Chen, Ting Qin, Jian Sun, Dan Li
     booktitle: 2025 IEEE Symposium on Security and Privacy (<b>S&P'25</b>)
@@ -40,6 +48,8 @@ publications:
     booktitle: Proceedings of the 29th USENIX Conference on Security Symposium (<b>USENIX Security'20</b>)
     pdf: https://www.usenix.org/system/files/sec20-zong.pdf
 services:
+  - booktitle: USENIX Security'27
+    job: Program Committee
   - booktitle: USENIX Security'23
     job: Artifact Evaluation Committee
   - booktitle: USENIX Security'22
